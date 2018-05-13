@@ -1,0 +1,9 @@
+{
+"server": "asdfasdf",
+"server_port": 12341234,
+"local_address":"asdfasdf",
+"local_port": 123412,
+"password": "asdfasdfasd",
+"method": "asdfasdf",
+"timeout": 60
+}
