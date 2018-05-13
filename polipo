@@ -11,11 +11,12 @@ sudo polipo socksParentProxy=localhost:1080
 
 # Ubuntu: /etc/polipo/config
 daemonise = true
-socksParentProxy = “127.0.0.1:1080″
+socksParentProxy = "127.0.0.1:1080"
 socksProxyType = socks5
-proxyAddress = "::0"        # both IPv4 and IPv6
+# both IPv4 and IPv6: 
+# proxyAddress = "::0"
 # or IPv4 only
-# proxyAddress = "0.0.0.0"
+proxyAddress = "127.0.0.1"
 proxyPort = 8123
 
 # 然后再次启动 polipo ：
